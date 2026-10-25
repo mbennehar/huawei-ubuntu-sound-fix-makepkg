@@ -22,3 +22,14 @@ sudo pacman -R huawei-ubuntu-sound-fix
 
 The package automatically runs upstream `uninstall.sh` upon removal, stopping and disabling the service and cleaning up the installed files.
 
+## Tested Environment
+
+This package was tested on **real hardware** running **CachyOS** (Linux / Arch-based).
+
+## AI Disclosure
+
+This PKGBUILD package and its accompanying configuration were prepared with the assistance of AI (Google DeepMind Antigravity).
+
+## Disclaimer
+
+This package was developed for **personal use** and is provided **"as is" without warranty of any kind**, either express or implied. Use it at your own risk.
