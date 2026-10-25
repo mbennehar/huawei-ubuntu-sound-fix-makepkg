@@ -24,7 +24,10 @@ The package automatically runs upstream `uninstall.sh` upon removal, stopping an
 
 ## Tested Environment
 
-This package was tested on **real hardware** running **CachyOS** (Linux / Arch-based).
+This package was tested on real hardware with the following specifications:
+- **Device**: HUAWEI MACHD-WXX9 (Version: M1020 / MateBook X Pro 2021)
+- **Audio Codec**: Conexant CX11880 (`sof-hda-dsp`)
+- **OS**: CachyOS Linux (Kernel: 7.3.0-4-cachyos)
 
 ## AI Disclosure
 
