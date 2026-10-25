@@ -1,0 +1,14 @@
+post_install() {
+    echo "==> Running install.sh..."
+    bash /opt/huawei-ubuntu-sound-fix/install.sh
+}
+
+post_upgrade() {
+    post_install
+}
+
+pre_remove() {
+    echo "==> Running uninstall.sh..."
+    bash /opt/huawei-ubuntu-sound-fix/uninstall.sh
+}
+

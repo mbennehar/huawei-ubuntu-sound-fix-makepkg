@@ -1,0 +1,7 @@
+/src/
+/pkg/
+/huawei-ubuntu-sound-fix/
+*.pkg.tar.*
+*.tar.gz
+*.tar.xz
+*.log
