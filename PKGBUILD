@@ -9,7 +9,8 @@ license=('custom')
 depends=('bash' 'alsa-utils' 'alsa-tools' 'procps-ng')
 makedepends=('git')
 install="${pkgname}.install"
-source=("${pkgname}::git+https://github.com/Smoren/huawei-ubuntu-sound-fix.git")
+_commit="9f1990ec612616f2073fe732880aaf2fd4f5f9c4"
+source=("${pkgname}::git+${url}.git#commit=${_commit}")
 md5sums=('SKIP')
 
 prepare() {

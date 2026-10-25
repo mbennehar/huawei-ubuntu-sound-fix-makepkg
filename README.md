@@ -21,3 +21,4 @@ sudo pacman -R huawei-ubuntu-sound-fix
 ```
 
 The package automatically runs upstream `uninstall.sh` upon removal, stopping and disabling the service and cleaning up the installed files.
+

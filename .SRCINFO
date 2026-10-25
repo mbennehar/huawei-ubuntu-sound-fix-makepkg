@@ -11,7 +11,7 @@ pkgbase = huawei-ubuntu-sound-fix
 	depends = alsa-utils
 	depends = alsa-tools
 	depends = procps-ng
-	source = huawei-ubuntu-sound-fix::git+https://github.com/Smoren/huawei-ubuntu-sound-fix.git
+	source = huawei-ubuntu-sound-fix::git+https://github.com/Smoren/huawei-ubuntu-sound-fix.git#commit=9f1990ec612616f2073fe732880aaf2fd4f5f9c4
 	md5sums = SKIP
 
 pkgname = huawei-ubuntu-sound-fix
